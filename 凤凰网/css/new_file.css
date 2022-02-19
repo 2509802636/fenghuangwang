@@ -1,0 +1,344 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	background-image: url(../img/微信截图_20220218152836.png);
+	width: 100%;
+	height: 600px;
+	background-size: auto;
+	background-position: center;
+}
+.body{
+	width: 100%;
+	height: 3000px;
+}
+.body1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.body1 img{
+	width: 65%;
+	height: 15%;
+}
+.toutiao{
+	width: 65%;
+	height: 60px;
+	margin: 0 auto;
+}
+.toutiao1 img{
+	width: 15%;
+	height: 40%;
+}
+.toutiao1 h2{
+	margin-left: 10px;
+}
+.toutiao1{
+	width: 50%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+.jianjie{
+	width: 65%;
+	height: 40px;
+	margin: 0 auto;
+	display: flex;
+}
+.jianjie h6{
+	font-weight: 500;
+}
+.jianjie span{
+	font-size: 12px;
+	color: red;
+}
+.neirong{
+	width: 65%;
+	height: 450px;
+	margin: 0 auto;
+	display: flex;
+}
+.left{
+	width: 50%;
+	height: 400px;
+	overflow:auto;
+}
+.left1{
+	width: 78%;
+	height: 90px;
+	border-bottom: dotted 1px #111111;
+}
+.left1 p{
+	font-size: 12px;
+}
+.left1 span{
+	color: #FF0000;
+}
+.right{
+	width: 50%;
+	height: 400px;
+	margin-left: 10px;
+}
+.jiange{
+	width: 100%;
+	height: 20px;
+}
+a{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+.content{
+	width: 100%;
+	height: 200px;
+	margin: 20px auto;
+	position: relative;
+}
+#item{
+	width: 40%;
+	height: 40%;
+	
+}
+.item{
+	position: absolute;
+	opacity: 0;
+	transition: all 1s;
+	
+}
+.item.active{
+	opacity:1;
+}
+img{
+	width: 80%;
+}
+.lunbo:hover #btn-left{
+	/*鼠标滑入，显示图标*/
+	opacity: 1;
+}
+.lunbo:hover #btn-right{
+	opacity: 1;
+}
+#circle{
+	height: 20px;
+	display: flex;
+	position: absolute;
+	top: 180px;
+	right: 130px;
+}
+.circle{
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	border: 2px solid white;
+	background: rgba(0,0,0,0.4);
+	cursor: pointer;
+	margin: 5px;
+}
+.white{
+	background-color: #FFFFFF;
+}
+.right1{
+	width: 74%;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+.tu1{
+	width: 48%;
+	height: 150px;
+}
+.tu1 img{
+	width: 100%;
+	height: 80%
+}
+.tu2{
+	width: 48%;
+	height: 150px;
+}
+.tu2 img{
+	width: 100%;
+	height: 80%
+}
+.body2{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.body2 img{
+	width: 65%;
+	height: 15%;
+}
+.baogao{
+	width: 65%;
+	height: 400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+.baogao1{
+	width: 32%;
+	height: 320px;
+}
+.baogao1 img{
+	width: 100%;
+	height: 100%;
+}
+.baogao2{
+	width: 32%;
+	height: 350px;
+	overflow:auto;
+}
+.baogao2-1{
+	width: 100%;
+	height: 110px;
+	border-bottom: dotted 1px #111111;
+}
+.baogao2-1 p{
+	font-size: 12px;
+}
+.baogao2-1 span{
+	color: #FF0000;
+}
+.baogao3{
+	width: 32%;
+	height: 360px;
+}
+.baogao3-1{
+	width: 100%;
+	height: 50%;
+}
+.baogao3-2{
+	width: 100%;
+	height: 50%;
+}
+.shengyin{
+	width: 65%;
+	height: 290px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+.shengyinx{
+	width: 65%;
+	height: 290px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+.shengyi1{
+	width: 100%;
+	height: 420px;
+	margin: 0 auto;
+}
+.renwu1{
+	width: 95%;
+	height: 150px;
+}
+.renwu1 img{
+	width: 100%;
+	height: 100%;
+}
+.renwu11{
+	width: 95%;
+	height: 20px;
+	background-color: black;
+}
+.renwu111{
+	width: 95%;
+	height: 100px;
+	background-color: #d9d9d9;
+}
+.shengyi2{
+	width: 95%;
+	height: 420px;
+	margin: 0 auto;
+}
+.renwu2{
+	width: 95%;
+	height: 150px;
+}
+.renwu2 img{
+	width: 100%;
+	height: 100%;
+}
+.renwu22{
+	width: 95%;
+	height: 20px;
+	background-color: black;
+}
+.renwu222{
+	width: 95%;
+	height: 100px;
+	background-color: #d9d9d9;
+}
+.shengyi3{
+	width: 95%;
+	height: 420px;
+	margin: 0 auto;
+}
+.renwu3{
+	width: 95%;
+	height: 150px;
+}
+.renwu3 img{
+	width: 100%;
+	height: 100%;
+}
+.renwu33{
+	width: 95%;
+	height: 20px;
+	background-color: black;
+}
+.renwu333{
+	width: 95%;
+	height: 100px;
+	background-color: #d9d9d9;
+}
+.zhanlue{
+	width: 60%;
+	height: 200px;
+	margin: 0 auto;
+	display: flex;
+}
+.hua{
+	width: 70%;
+	height: 200px;
+}
+.hua img{
+	width: 100%;
+}
+.hua1{
+	width: 30%;
+	height: 200px;
+}
+.hua3{
+	width: 30%;
+	height: 200px;
+}
+.hua3 img{
+	width: 100%;
+}
+.hua4 img{
+	width: 90%;
+}
+.hua4{
+	width: 70%;
+	height: 200px;
+}
+.redian{
+	width: 65%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.bottom{
+	width: 65%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
